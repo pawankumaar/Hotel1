@@ -9,6 +9,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * This class is to maintain the RestController API Endpoints
+ */
 @RestController
 @RequestMapping("/api/customer")
 public class CustomerController {
